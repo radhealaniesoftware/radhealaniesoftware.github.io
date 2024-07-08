@@ -3,13 +3,13 @@
  <Ad id="SampleAd">
   <InLine>
    <AdSystem>VASTQA</AdSystem>
-   <AdTitle>Video Ad</AdTitle>
+   <AdTitle>sussysonic.</AdTitle>
    <Error><![CDATA[]]></Error>
    <Impression><![CDATA[https://ads.doubleclick.net/collect?v=1&tid=UA-73958391-1&cid=555&t=event&ec=sampletag&ea=impression]]></Impression>
    <Creatives>
     <Creative id="12345678">
      <Linear>
-      <Duration>00:00:30</Duration>
+      <Duration>00:00:07</Duration>
       <TrackingEvents>
        <Tracking event="start"><![CDATA[https://ads.doubleclick.net/collect?v=1&tid=UA-73958391-1&cid=555&t=event&ec=sampletag&ea=start]]></Tracking>
        <Tracking event="firstQuartile"><![CDATA[https://ads.doubleclick.net/collect?v=1&tid=UA-73958391-1&cid=555&t=event&ec=sampletag&ea=firstQuartile]]></Tracking>
@@ -22,21 +22,25 @@
        <Tracking event="fullscreen"><![CDATA[https://ads.doubleclick.net/collect?v=1&tid=UA-73958391-1&cid=555&t=event&ec=sampletag&ea=fullscreen]]></Tracking>
       </TrackingEvents>
       <VideoClicks>
-       <ClickThrough><![CDATA[https://www.google.com/?q=VASTQA_SAMPLE_TAG_VIDEO_CLICK&url=https://www.google.com]]></ClickThrough>
+       <ClickThrough><![CDATA[https://radhealaniesoftware.github.io/]]></ClickThrough>
       </VideoClicks>
       <MediaFiles>
-       <MediaFile delivery="progressive" width="960" height="540" type="video/mp4" bitrate="582"><![CDATA[https://ytvastqa.appspot.com/static/sampletag/vastmedia.mp4]]></MediaFile>
+       <MediaFile delivery="interlaced" width="1920" height="1080" type="video/mp4" bitrate="2936"><![CDATA[https://radhealaniesoftware.github.io/VAST_Testing/vastmedia.mp4]]></MediaFile>
+       <MediaFile delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="1379"><![CDATA[https://radhealaniesoftware.github.io/VAST_Testing/vastmedia1.mp4]]></MediaFile>
+       <MediaFile delivery="progressive" width="854" height="480" type="video/mp4" bitrate="1468"><![CDATA[https://radhealaniesoftware.github.io/VAST_Testing/vastmedia2.mp4]]></MediaFile>
+       <MediaFile delivery="progressive" width="960" height="540" type="video/mp4" bitrate="582"><![CDATA[https://radhealaniesoftware.github.io/VAST_Testing/vastmedia3.mp4]]></MediaFile>
+       <MediaFile delivery="progressive" width="640" height="360" type="video/mp4" bitrate="402"><![CDATA[https://radhealaniesoftware.github.io/VAST_Testing/vastmedia4.mp4]]></MediaFile>
       </MediaFiles>
      </Linear>
     </Creative>
     <Creative id="12345678">
      <CompanionAds>
       <Companion width="300" height="60">
-       <StaticResource creativeType="image/jpeg"><![CDATA[https://ytvastqa.appspot.com/static/sampletag/companion300x60.jpg]]></StaticResource>
+       <StaticResource creativeType="image/jpeg"><![CDATA[https://radhealaniesoftware.github.io/VAST_Testing/SussySonicYTVASTAdCompanionBanner300x60.jpg]]></StaticResource>
        <TrackingEvents>
         <Tracking event="creativeView"><![CDATA[https://ads.doubleclick.net/collect?v=1&tid=UA-73958391-1&cid=555&t=event&ec=sampletag&ea=creativeView]]></Tracking>
        </TrackingEvents>
-       <CompanionClickThrough><![CDATA[https://www.google.com/?q=VASTQA_SAMPLE_TAG_COMPANION_CLICK]]></CompanionClickThrough>
+       <CompanionClickThrough><![CDATA[https://radhealaniesoftware.github.io/]]></CompanionClickThrough>
       </Companion>
      </CompanionAds>
     </Creative>
