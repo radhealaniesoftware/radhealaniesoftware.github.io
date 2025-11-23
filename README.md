@@ -1,2 +1,3 @@
 # radhealaniesoftware.github.io
-main website for sussysonic.
+archived old website for myself.
+didn't update until now... so coming soon.
